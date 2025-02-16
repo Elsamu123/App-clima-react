@@ -23,7 +23,7 @@ export const UseFetch = () => {
           const data = await response.json()
           setClima(data)
           
-  
+
         }catch(error){
           console.error('error', error)
   
