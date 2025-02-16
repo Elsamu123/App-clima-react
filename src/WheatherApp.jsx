@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './styles/wheatherStyles.css'
-import { UseFetch } from './hooks/useFetch'
+import { UseFetch } from './hooks/UseFetch'
 
 export const WheatherApp = () => {
     const [dataRequested, setRequest] = useState(false)
