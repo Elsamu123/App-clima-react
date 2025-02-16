@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './styles/wheatherStyles.css'
 import { UseFetch } from './hooks/UseFetch'
 
+
 export const WheatherApp = () => {
     const [dataRequested, setRequest] = useState(false)
 
@@ -45,7 +46,7 @@ export const WheatherApp = () => {
                     <> 
                       <h2>Temperature in Dominican Republic</h2>
                       <p>Temperature: {parseInt(main.temp - defKelvin)}°C</p>
-                      <img src='dist\assets\favicon.ico-DwE05y2m.png'></img>
+                      <img src='/images/imagenClima.png'></img>
 
 
                       
