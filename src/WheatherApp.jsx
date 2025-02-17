@@ -46,7 +46,7 @@ export const WheatherApp = () => {
                     <> 
                       <h2>Temperature in Dominican Republic</h2>
                       <p>Temperature: {parseInt(main.temp - defKelvin)}°C</p>
-                      <img src='favicon.ico.png'></img>
+                      <img src='/assets/favicon.ico-dwe05y2m.png'></img>
 
                     
                       
